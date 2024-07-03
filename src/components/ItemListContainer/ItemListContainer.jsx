@@ -14,7 +14,7 @@ const categories = [
     {
       id: 3,
       name: "Living",
-      img: "https:/https://clarika.b-cdn.net/prod/793E269E-62AB-4897-8D39-C2B80D9F0A39/product/FANALBLACKXL_1.jpeg",
+      img: "https://clarika.b-cdn.net/prod/793E269E-62AB-4897-8D39-C2B80D9F0A39/product/FANALBLACKXL_1.jpeg",
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ const categories = [
                   <img src={item.img} className="card-img-top" alt={item.name} />
                   <div className="card-body">
                       <h5 className="card-title">{item.name}</h5>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <a href="#" className="btn btn-secondary">Ver esta categoría</a>
                   </div>
               </div>
           ))}
